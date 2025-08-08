@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "path": "^0.12.7",
+    "ws": "^8.18.3"
+  },
+  "name": "pokemon-cs",
+  "version": "1.0.0",
+  "description": "pokemon application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheesiePy/pokemon-cs.git"
+  },
+  "author": "ML",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheesiePy/pokemon-cs/issues"
+  },
+  "homepage": "https://github.com/CheesiePy/pokemon-cs#readme"
+}

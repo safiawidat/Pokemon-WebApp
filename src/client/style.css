@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+}
+
+.card img {
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.pokemon-card-clickable {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.pokemon-card-clickable:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
