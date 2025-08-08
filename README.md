@@ -76,7 +76,7 @@ This full-stack web application lets you dive into the world of Pokémon like ne
 - `favorites/` – Per-user favorite lists (e.g., `1.json`, `2.json`)
 - `battles.json` – Match history & results
 
----
+------
 
 ##  Getting Started
 
