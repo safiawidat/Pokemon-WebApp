@@ -16,7 +16,14 @@ registerForm.addEventListener('submit', async function(event) {
   const password = document.getElementById('password').value;
   const confirmPassword = document.getElementById('confirmPassword').value;
 
+
   // --- Client-Side Validation ---
+  // ---check if first name is legal---
+  if (!/^[A-Za-z]+$/.test(firstName)) {
+  showError('First name must contain only letters.');
+  return;
+  
+}
   // Check if passwords match
   if (password !== confirmPassword) {
     showError('Passwords do not match.');
