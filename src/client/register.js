@@ -24,6 +24,13 @@ registerForm.addEventListener('submit', async function(event) {
   return;
   
 }
+
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+      showError('Please enter a valid email address.');
+      return;
+    }
+
   // Check if passwords match
   if (password !== confirmPassword) {
     showError('Passwords do not match.');
