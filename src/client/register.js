@@ -22,14 +22,7 @@ registerForm.addEventListener('submit', async function(event) {
   if (!/^[A-Za-z]+$/.test(firstName)) {
   showError('First name must contain only letters.');
   return;
-  
-}
-
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(email)) {
-      showError('Please enter a valid email address.');
-      return;
-    }
+  }
 
   // Check if passwords match
   if (password !== confirmPassword) {

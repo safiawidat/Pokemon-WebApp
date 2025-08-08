@@ -16,5 +16,11 @@
     "firstName": "Safi",
     "email": "safiawi@gmail.com",
     "password": "$2b$10$i6vWvGif8xmz9nrQ4I0.0eqzasRnUgQy.SaWpUg2lWR0sIVth5taC"
+  },
+  {
+    "id": 4,
+    "firstName": "Safi",
+    "email": "safi-055@hotmail.c",
+    "password": "$2b$10$dATk356OWDkeS9w2PnJO..97Bn3V/2T27MzbepmTPu0YEGcWb2p5."
   }
 ]
