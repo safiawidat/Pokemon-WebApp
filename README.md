@@ -10,7 +10,7 @@ This full-stack web application lets you dive into the world of Pokémon like ne
 
 ---
 
-## 🎮 Features
+##  Features
 
 -  **User Authentication** – Register, log in, and manage your account securely
 -  **Pokémon Search** – Look up Pokémon by name, type, ability, or Pokédex ID
