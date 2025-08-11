@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "firstName": "User",
+    "email": "User@mail.com",
+    "password": "$2b$10$tRWE9LouA86Ro9Kr0jx8f.I/CWrg.ExBiEoHkXGrA.6QQdE27Rx2K"
+  },
+  {
+    "id": 2,
+    "firstName": "May",
+    "email": "may@mail.com",
+    "password": "$2b$10$QG6bUnvH.UGeku2DDSudtulAhPfmPkpj4VDcbg/vKhM/Ko9HlZUeu"
+  },
+  {
+    "id": 3,
+    "firstName": "User Userton",
+    "email": "User2@gmail.com",
+    "password": "$2b$10$2h9EoDaXbnNNNbmxTKUVk.JqsAf3HsrhtbB/NJAOHmpwq5NIIGBrG"
+  }
+]

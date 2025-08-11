@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle a Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/client/style.css">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Challenge a Player</h1>
+        <div class="card">
+            <div class="card-header">
+                Online Players
+            </div>
+            <ul id="online-users-list" class="list-group list-group-flush">
+                </ul>
+        </div>
+        <div id="battle-area" class="mt-4 text-center"></div>
+        <div id="start-battle-container" class="text-center mt-4" style="display: none;">
+            <button id="start-battle-btn" class="btn btn-danger btn-lg">Start Battle!</button>
+        </div>
+    </div>
+    <script src="/src/client/arena-vs-player.js"></script>
+</body>
+</html>

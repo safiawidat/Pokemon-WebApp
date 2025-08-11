@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur"
+  },
+  {
+    "id": 2,
+    "name": "ivysaur"
+  },
+  {
+    "id": 3,
+    "name": "venusaur"
+  },
+  {
+    "id": 7,
+    "name": "squirtle"
+  },
+  {
+    "id": 8,
+    "name": "wartortle"
+  },
+  {
+    "id": 9,
+    "name": "blastoise"
+  },
+  {
+    "id": 151,
+    "name": "mew"
+  },
+  {
+    "id": 150,
+    "name": "mewtwo"
+  },
+  {
+    "id": 149,
+    "name": "dragonite"
+  },
+  {
+    "id": 76,
+    "name": "golem"
+  }
+]

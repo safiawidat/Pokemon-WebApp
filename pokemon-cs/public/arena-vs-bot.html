@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle vs. Bot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/client/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Pokémon App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/favorites.html">My Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/arena.html">Arena</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/arena-leaderboard.html">Leaderboard</a>
+                    </li>
+                </ul>
+                <div id="user-display" class="d-none d-flex align-items-center gap-2">
+                    <span class="navbar-text me-3" id="user-greeting"></span>
+                    <button class="btn btn-outline-secondary" id="logout-button">Logout</button>
+                </div>
+                <div id="auth-links">
+                    <a href="login.html" class="btn btn-info">Login</a>
+                    <a href="register.html" class="btn btn-success">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5 text-center">
+        <div>
+            <h1>Battle vs. Bot</h1>
+            <p id="instruction-text" class="lead">Ready to test your might against a random bot?</p>
+        </div>
+        <div id="start-battle-container" class="mt-4">
+            <button id="start-battle-btn" class="btn btn-danger btn-lg">Start Random Battle!</button>
+        </div>
+        <div id="battle-results" class="mt-4"></div>
+    </div>
+
+    <script src="/src/client/arena-vs-bot.js"></script>
+    <script src="/src/client/auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

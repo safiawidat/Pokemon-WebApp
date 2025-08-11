@@ -1,0 +1,32 @@
+[
+  {
+    "player1Id": 1,
+    "player2Id": "BOT",
+    "winnerId": "BOT",
+    "timestamp": "2025-08-09T18:02:54.738Z"
+  },
+  {
+    "player1Id": 1,
+    "player2Id": "BOT",
+    "winnerId": 1,
+    "timestamp": "2025-08-09T18:03:03.081Z"
+  },
+  {
+    "player1Id": 1,
+    "player2Id": "BOT",
+    "winnerId": "BOT",
+    "timestamp": "2025-08-09T18:05:29.963Z"
+  },
+  {
+    "player1Id": 1,
+    "player2Id": "BOT",
+    "winnerId": "BOT",
+    "timestamp": "2025-08-09T18:05:37.958Z"
+  },
+  {
+    "player1Id": 1,
+    "player2Id": "BOT",
+    "winnerId": "BOT",
+    "timestamp": "2025-08-09T18:05:45.610Z"
+  }
+]
