@@ -13,11 +13,13 @@ function createCard(pokemon) {
       <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}" class="card-img-top mx-auto">
       <div class="card-body">
         <h5 class="card-title text-capitalize">${pokemon.name}</h5>
-        <p class="card-text">ID: ${pokemon.id}</p>
-        <p class="card-text">Types: ${pokemon.types.map(t => t.type.name).join(', ')}</p>
-        <p class="card-text">Abilities: ${pokemon.abilities.map(a => a.ability.name).join(', ')}</p>
-        <a href="details.html?id=${pokemon.id}" class="btn btn-info mb-2">View Details</a>
-        <button class="btn btn-outline-success" onclick="addToFavorites(${pokemon.id})">Add to Favorites</button>
+        <p class="card-text"><strong>ID:</strong> ${pokemon.id}</p>
+        <p class="card-text"><strong>Types:</strong> ${pokemon.types.map(t => t.type.name).join(', ')}</p>
+        <p class="card-text"><strong>Abilities:</strong> ${pokemon.abilities.map(a => a.ability.name).join(', ')}</p>
+        <div class="card-buttons">
+          <a href="details.html?id=${pokemon.id}" class="btn btn-info">View Details</a>
+          <button class="btn btn-outline-success" onclick="addToFavorites(${pokemon.id})">Add to Favorites</button>
+        </div>
       </div>
     </div>
   </div>`;
