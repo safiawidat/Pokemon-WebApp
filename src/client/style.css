@@ -47,3 +47,25 @@ body {
     filter: grayscale(100%);
     opacity: 0.5;
 }
+
+.navbar-nav .nav-link {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 6px 16px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    background: #f8f9fa;
+    color: #212529;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    text-decoration: none;
+}
+
+.navbar {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
