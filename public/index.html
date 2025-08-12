@@ -42,61 +42,64 @@
         </div>
     </nav>
     <!-- Main Content -->
-    <div class="container my-4">
-        
-        <h1 class="text-center mb-4">Find Your Pokémon</h1>
-        <div class="row g-4 mb-4">
-            <div class="col-md-3">
-              <input type="text" id="nameInput" class="form-control" placeholder="Pokemon Name (e.g. pikachu)">
-            </div>
-            <div class="col-md-3">
-                <select id="typeSelect" class="form-select">
-                    <option value="">Select Type</option>
-                    <option value="fire">Fire</option>
-                    <option value="water">Water</option>
-                    <option value="grass">Grass</option>
-                    <option value="electric">Electric</option>
-                    <option value="psychic">Psychic</option>
-                    <option value="fighting">Fighting</option>
-                    <option value="flying">Flying</option>
-                    <option value="poison">Poison</option>
-                    <option value="ground">Ground</option>
-                    <option value="rock">Rock</option>
-                    <option value="bug">Bug</option>
-                    <option value="ghost">Ghost</option>
-                    <option value="steel">Steel</option>
-                    <option value="ice">Ice</option>
-                    <option value="dragon">Dragon</option>
-                    <option value="dark">Dark</option>
-                    <option value="fairy">Fairy</option>
-                    <option value="normal">Normal</option>
-
-                </select>
-            </div>
-            <div class="col-md-3">
-                <input type="text" id="abilityInput" class="form-control" placeholder="Ability (e.g. intimidate)">
-            </div>
-            <div class="col-md-3">
-                <input type="number" id="idInput" class="form-control" placeholder="Pokemon ID">
-            </div>
-
+    <div class="container my-5">
+    <div class="welcome-section text-center mb-5 p-4 rounded shadow-sm bg-light">
+        <h1 class="display-4 fw-bold mb-3 text-primary">Welcome to Pokémon Finder!</h1>
+        <p class="lead mb-4 text-secondary">
+            Discover, search, and explore your favorite Pokémon by name, type, ability, or ID.<br>
+            Build your favorites list, challenge the arena, and climb the leaderboard!
+        </p>
+        <div id="authors-info" class="mt-3"></div>
+    </div>
+    <h2 class="text-center mb-4">Find Your Pokémon</h2>
+    <div class="row g-4 mb-4">
+        <div class="col-md-3">
+            <input type="text" id="nameInput" class="form-control" placeholder="Pokemon Name (e.g. pikachu)">
         </div>
-
-        <div class="d-flex justify-content-center mb-3">
-            <button onclick="searchPokemon()" class="btn btn-primary btn-lg">Search Pokémon</button>
+        <div class="col-md-3">
+            <select id="typeSelect" class="form-select">
+                <option value="">Select Type</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="grass">Grass</option>
+                <option value="electric">Electric</option>
+                <option value="psychic">Psychic</option>
+                <option value="fighting">Fighting</option>
+                <option value="flying">Flying</option>
+                <option value="poison">Poison</option>
+                <option value="ground">Ground</option>
+                <option value="rock">Rock</option>
+                <option value="bug">Bug</option>
+                <option value="ghost">Ghost</option>
+                <option value="steel">Steel</option>
+                <option value="ice">Ice</option>
+                <option value="dragon">Dragon</option>
+                <option value="dark">Dark</option>
+                <option value="fairy">Fairy</option>
+                <option value="normal">Normal</option>
+            </select>
         </div>
-
-        <div id="loader" class="text-center my-3" style="display:none">
-            <div class="spinner-border text-primary" role="status"></div>
+        <div class="col-md-3">
+            <input type="text" id="abilityInput" class="form-control" placeholder="Ability (e.g. intimidate)">
         </div>
-        
-        <div id="results" class="row g-3"></div>
-        <div id="authors-info" class="text-center mb-4"></div>
+        <div class="col-md-3">
+            <input type="number" id="idInput" class="form-control" placeholder="Pokemon ID">
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mb-3">
+        <button onclick="searchPokemon()" class="btn btn-primary btn-lg">Search Pokémon</button>
+    </div>
+    <div id="loader" class="text-center my-3" style="display:none">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <div id="results" class="row g-3"></div>
     </div>
 
-    <footer class="text-center mt-5">
-        <p>&copy; 2025 Pokémon Finder.</p>
-        <div id="authors-info" class="text-center mb-4"></div>
+    <footer class="footer mt-auto py-3 bg-light border-top">
+    <div class="container text-center">
+        <span class="text-muted fw-semibold">&copy; 2025 Pokémon Finder. All rights reserved.</span>
+        <div id="authors-info-footer" class="mt-2"></div>
+    </div>
     </footer>
 
     <script src="/src/client/script.js"></script>
