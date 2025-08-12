@@ -1,31 +1,31 @@
-# 🔴🟡 Pokémon Battle Arena 🟢🔵
+#  Pokémon Battle Arena 
 
 **Gotta code 'em all!**  
 This full-stack web application lets you dive into the world of Pokémon like never before:
 
-🎯 Search for your favorite Pokémon  
-⭐ Build your dream team of favorites  
-⚔️ Battle other trainers or test your skills against a wild bot  
-🏆 Climb the leaderboard to become the very best!
+ Search for your favorite Pokémon  
+ Build your dream team of favorites  
+ Battle other trainers or test your skills against a wild bot  
+ Climb the leaderboard to become the very best!
 
 ---
 
 ## 🎮 Features
 
-- 🔐 **User Authentication** – Register, log in, and manage your account securely
-- 🔍 **Pokémon Search** – Look up Pokémon by name, type, ability, or Pokédex ID
-- 📊 **Detailed Stats** – View abilities, types, base stats, height, weight, and more
-- ❤️ **Favorites List** – Save up to 10 favorite Pokémon and manage them easily
-- 📥 **Download Favorites** – Export your dream team as a JSON file
-- ⚔️ **Real-time PvP Battles** – Challenge other trainers with WebSockets
-- 🤖 **Bot Battles** – Face off against a random wild Pokémon!
-- 🏆 **Leaderboard** – Track top-performing trainers in epic battles
+-  **User Authentication** – Register, log in, and manage your account securely
+-  **Pokémon Search** – Look up Pokémon by name, type, ability, or Pokédex ID
+-  **Detailed Stats** – View abilities, types, base stats, height, weight, and more
+-  **Favorites List** – Save up to 10 favorite Pokémon and manage them easily
+-  **Download Favorites** – Export your dream team as a JSON file
+-  **Real-time PvP Battles** – Challenge other trainers with WebSockets
+-  **Bot Battles** – Face off against a random wild Pokémon!
+-  **Leaderboard** – Track top-performing trainers in epic battles
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
-### 🏠 Root Directory
+###  Root Directory
 - `.gitignore` – Ignores `node_modules`, `.env`, logs, etc.
 - `package.json` – Project metadata and dependencies
 - `package-lock.json` – Exact dependency versions
@@ -34,7 +34,7 @@ This full-stack web application lets you dive into the world of Pokémon like ne
 
 ---
 
-### 🌐 `public/` – Client-facing HTML pages
+###  `public/` – Client-facing HTML pages
 - `index.html` – Main search and homepage
 - `register.html` / `login.html` – User authentication pages
 - `favorites.html` – Manage your saved Pokémon
@@ -46,9 +46,9 @@ This full-stack web application lets you dive into the world of Pokémon like ne
 
 ---
 
-### 🧠 `src/` – Application Logic
+###  `src/` – Application Logic
 
-#### 🎨 `client/` – Frontend Scripts & Styles
+####  `client/` – Frontend Scripts & Styles
 - `script.js` – Handles search
 - `register.js` / `login.js` – Auth forms
 - `auth.js` – Session management
@@ -59,7 +59,7 @@ This full-stack web application lets you dive into the world of Pokémon like ne
 - `arena-leaderboard.js` – Fetch and render leaderboard
 - `style.css` – Themed custom styles
 
-#### 🔌 `api/` – Backend Code
+####  `api/` – Backend Code
 - `controllers/`
   - `auth.controller.js` – User sessions & login logic
   - `pokemon.controller.js` – Favorites & YouTube integration
@@ -71,14 +71,14 @@ This full-stack web application lets you dive into the world of Pokémon like ne
   - `pokemon.routes.js`
   - `leaderboard.routes.js`
 
-#### 📦 `data/` – Persistent Storage
+####  `data/` – Persistent Storage
 - `users.json` – Registered users
 - `favorites/` – Per-user favorite lists (e.g., `1.json`, `2.json`)
 - `battles.json` – Match history & results
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repo**:
    ```bash
@@ -110,72 +110,70 @@ This full-stack web application lets you dive into the world of Pokémon like ne
 
 ---
 
-## 🧪 API Endpoints
+##  API Endpoints
 
-### 👤 Auth
+###  Auth
 
 * `POST /api/auth/register` – Register
 * `POST /api/auth/login` – Login
 * `POST /api/auth/logout` – Logout
 * `GET /api/auth/status` – Session check
 
-### 🔎 Pokémon
+###  Pokémon
 
 * `GET /api/pokemon/favorites` – Get favorites
 * `POST /api/pokemon/favorites` – Add favorite
 * `DELETE /api/pokemon/favorites/:id` – Remove favorite
 * `GET /api/pokemon/videos/:pokemonName` – Related YouTube videos
 
-### 🥇 Leaderboard
+###  Leaderboard
 
 * `GET /api/leaderboard` – Rankings by win rate
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-### 🌐 Frontend
+###  Frontend
 
 * HTML / CSS / JavaScript
 * Bootstrap
 
-### 🧠 Backend
+###  Backend
 
 * Node.js
 * Express.js
 * WebSocket (`ws`)
 
-### 🔐 Authentication
+###  Authentication
 
 * `bcrypt`
 * `express-session`
 
-### 📡 API Integration
+###  API Integration
 
 * `axios`
 * `dotenv`
 * YouTube Data API
 
-### 🗃️ Storage
+###  Storage
 
 * JSON-based data store
 
 ---
 
-## 📸 Sneak Peek
+##  Sneak Peek
 
 > *"Battles are better when your Charizard roasts the competition."*
 > Stay tuned for future enhancements: animations, evolution chains, and shiny hunts!
 
 ---
 
-## 📚 Further Reading
+##  Further Reading
 
 * [Pokémon API Documentation (PokeAPI)](https://pokeapi.co/docs/v2)
-* [How WebSockets Work (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
-* [Intro to Full-Stack JavaScript (YouTube)](https://www.youtube.com/watch?v=9Pzj7Aj25lw)
 * [YouTube Data API (Google Dev)](https://developers.google.com/youtube/v3)
 
 ---
 
-> Made with ❤️ and ⚡ by Pokémon masters in training
+> Made with and by Pokémon masters in training
