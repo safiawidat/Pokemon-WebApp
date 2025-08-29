@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CheesiePy/pokemon-cs.git"
+    "url": "git+https://github.com/safiawidat/Pokemon-WebApp.git"
   },
   "author": "ML",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CheesiePy/pokemon-cs/issues"
+    "url": "https://github.com/safiawidat/Pokemon-WebApp/issues"
   },
-  "homepage": "https://github.com/CheesiePy/pokemon-cs#readme"
+  "homepage": "https://github.com/safiawidat/Pokemon-WebApp"
 }

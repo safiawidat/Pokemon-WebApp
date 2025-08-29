@@ -27,7 +27,6 @@ export const getFavorites = async (req, res) => {
             return res.json([]);
         }
 
-        // --- START: THE FIX ---
         // For each favorited Pokémon, fetch its full data to get the image URL.
         const detailedFavorites = await Promise.all(
             favorites.map(async (pokemon) => {
